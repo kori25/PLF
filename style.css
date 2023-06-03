@@ -1,0 +1,44 @@
+body {
+    align-items: center;
+    background: linear-gradient(to right,#7E57C2, #95c4e3);
+    display:flex
+}
+.contenedor {
+    border: 2px solid rgb(0, 0, 0); /* Estilo del borde */
+    padding: 20px; /* Espacio interno */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+    min-height: 300px;
+    border-radius: 7px;
+    height: 20vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+  }
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 0;
+    left: 5;
+    margin: 5;
+    z-index: 3;
+}
+    
+form {
+    margin-top: 20px;  
+}
+
+label { /*Label es el texto que acompaña a los inputs*/
+    display: block; /*Display block hace que el texto se muestre en una línea diferente*/
+    margin-bottom: 10px; /*Margin bottom es el margen inferior*/
+  }
+
+input[type="submit"] {
+    border-radius: 4px; 
+    color: #311B92;
+    background-color: #EDE7F6;
+}
